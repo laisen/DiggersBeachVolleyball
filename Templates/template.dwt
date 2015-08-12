@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Diggers Beach Volleyball</title>
+<!-- TemplateEndEditable -->
+<link href="../style/css.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<header>
+  <ul>
+    <!-- TemplateBeginEditable name="nav" -->
+      <li><a href="#" target="_self">HOME</a></li>
+      <li><a href="#" target="_self">WHO CAN PLAY</a></li>
+      <li><a href="#" target="_self">ABOUT VOLLEYBALL</a></li>
+      <li><a href="#" target="_self">ANNOUNCEMENTS</a></li>
+      <li><a href="#" target="_self">LINKS</a></li>
+      <li><a href="#" target="_self">SIGN-UP</a></li>
+      <li><a href="#" target="_self">PLAYING GULIDELINES</a></li>
+    <!-- TemplateEndEditable -->
+  </ul>
+</header>
+
+<!-- TemplateBeginEditable name="content" -->
+<div id="content">content</div>
+<!-- TemplateEndEditable -->
+
+<footer>© 2015 by DIGGERS BEACH VOLLEYBALL</footer>
+</body>
+</html>

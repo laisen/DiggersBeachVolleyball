@@ -2,25 +2,29 @@
 
 *{
 	margin: 0;
+	padding: 0;
 }
 
 body {
 	font-size: 100%;
 	min-width: 1400px;
+	margin-top: 0em;
 }
 
 header {
 	text-decoration: none;
-	display: inline;
 	text-align: center;
-	
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	min-width: 1400px;
 }
 
 header ul {
-	padding-top: 2em;
+	padding-top: 1.2em;
 	padding-right: 2em;
 	padding-left: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 1.2em;
 	background-color: #5DD8FF;
 }
 
@@ -45,7 +49,7 @@ header li a{
 	font-weight: bold;
 }
 
-header ul li a:hover {
+header ul li a:hover, header .active a{
 	color: #5DD8FF;
 	background-color: #FFFFFF;
 	border-radius: 7px;
@@ -62,10 +66,64 @@ header ul li a:hover {
 
 #content {
 	background-color: #E3E3E3;
+	margin-top: 5em;
 }
 
+table{
+    width:100%;
+    //border:3px solid #f00;
+	border-collapse: collapse;
+}
+table td {
+	text-align: center;	
+	padding-bottom: 666px;
+}
+table th {
+	width: 61.8%;
+	background-image: url(../images/beachNet.jpg);
+	background-repeat: no-repeat;
+	//border: 3px solid #f00;
+	background-size: auto 1200px;
+	background-position: 61.8% 50%;
+}
 
+//img {
+	//width: 100%;
+	//height: 100%;
+//}
+
+.rotate {
+	width: 220px;
+	height: 220px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(../images/vector_volleyball.png);
+	-webkit-background-size: 220px 220px;
+	-moz-background-size: 220px 220px;
+	background-size: 220px 220px;
+	-webkit-border-radius: 110px;
+	border-radius: 110px;
+	-webkit-transition: -webkit-transform 1s ease-out;
+	-moz-transition: -moz-transform 1s ease-out;
+	-o-transition: -o-transform 1s ease-out;
+	-ms-transition: -ms-transform 1s ease-out;
+	//border: 3px solid #f00;
+}
+
+.rotate:hover {
+	-webkit-transform: rotateZ(1080deg);
+	-moz-transform: rotateZ(1080deg);
+	-o-transform: rotateZ(1080deg);
+	-ms-transform: rotateZ(1080deg);
+	transform: rotateZ(1080deg);
+}
 
 footer {
 	background-color: #585858;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
